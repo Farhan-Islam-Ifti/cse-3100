@@ -1,0 +1,83 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 1rem;
+}
+
+.search-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+select, input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+select {
+  min-width: 120px;
+}
+
+input {
+  min-width: 200px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divider {
+  height: 4px;
+  background-color: #000;
+  opacity: 0.3;
+  margin: 1rem 0 2rem;
+}
+
+.cats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.cat-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cat-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cat-info {
+  padding: 1rem;
+  background: #f8f9fa;
+}
+
+.cat-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.125rem;
+}
+
+.cat-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.875rem;
+}

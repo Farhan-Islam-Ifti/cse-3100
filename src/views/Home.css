@@ -1,0 +1,51 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+    margin: 2rem 0 1rem;
+  }
+  
+  .divider {
+    height: 4px;
+    background-color: #000;
+    opacity: 0.3;
+    margin: 1rem 0 2rem;
+  }
+  
+  .cats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .cat-card {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .cat-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cat-info {
+    padding: 1rem;
+    background: #f8f9fa;
+  }
+  
+  .cat-info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.125rem;
+  }
+  
+  .cat-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.875rem;
+  }
+  

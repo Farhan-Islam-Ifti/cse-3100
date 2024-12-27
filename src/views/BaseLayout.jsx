@@ -10,11 +10,21 @@ const BaseLayout = () => {
           </Link>
         </h1>
         <div className="flex-grow-1"></div>
-        <nav>
-          <ul className="nav">
+        <nav className="d-flex align-items-center">
+          <ul className="nav me-3">
             <li className="nav-item">
               <Link className="nav-link" to="/available-cats">
                 Available Cats
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
+                Contact Us
               </Link>
             </li>
           </ul>
